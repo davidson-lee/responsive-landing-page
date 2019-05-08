@@ -1,0 +1,26 @@
+.footer {
+    width: 100%;
+    color: rgb(230,230,230);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.footer-terms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    background-color: rgb(230,230,230);
+    color: black;
+}
+
+.footer-links {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: black;
+    background-color: rgb(230,230,230)
+}
