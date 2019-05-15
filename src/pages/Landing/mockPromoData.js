@@ -1,45 +1,38 @@
 const mockPromoData = [
     {
-        type: 'top',
-        title: 'Top Promo',
-        bg: `rgb(247,247,247)`,
-        description: 'Lorem ipsum dolor sit amet'
+        title: 'Main Promo 1',
+        description: 'Main Promo 1 Description',
+        image: 'http://placekitten.com/500/500'
     },
     {
-        type: 'main',
-        title: 'Main Promo',
-        bg: `rgb(0,0,0)`,
-        description: 'Lorem ipsum dolor sit amet'
+        title: 'Main Promo 2',
+        description: 'Main Promo 2 Description',
+        image: 'http://placekitten.com/510/510'
     },
     {
-        type: 'sub-small',
-        title: 'Small Sub Promo',
-        bg: `url("https://picsum.photos/id/79/960/500")`,
-        description: 'Lorem ipsum dolor sit amet'
+        title: 'Main Promo 3',
+        description: 'Main Promo 3 Description',
+        image: 'http://placekitten.com/501/501'
     },
     {
-        type: 'sub-small',
-        title: 'Small Sub Promo',
-        bg: `url("https://picsum.photos/id/795/960/500")`,
-        description: 'Lorem ipsum dolor sit amet'
+        title: 'Sub Promo 1',
+        description: 'Sub Promo Description',
+        image: 'http://placekitten.com/503/503'
     },
     {
-        type: 'sub-small',
-        title: 'Small Sub Promo',
-        bg: `url("https://picsum.photos/id/831/960/500")`,
-        description: 'Lorem ipsum dolor sit amet'
+        title: 'Sub Promo 2',
+        description: 'Sub Promo Description',
+        image: 'http://placekitten.com/504/504'
     },
     {
-        type: 'sub-small',
-        title: 'Small Sub Promo',
-        bg: `url("https://picsum.photos/id/84/960/500")`,
-        description: 'Lorem ipsum dolor sit amet'
+        title: 'Sub Promo 3',
+        description: 'Sub Promo Description',
+        image: 'http://placekitten.com/505/505'
     },
     {
-        type: 'sub-large',
-        title: 'Large Sub Promo',
-        bg: `rgb(0,0,0)`,
-        description: 'Lorem ipsum dolor sit amet'
+        title: 'Sub Promo 4',
+        description: 'Sub Promo Description',
+        image: 'http://placekitten.com/506/506'
     }
 ]
 

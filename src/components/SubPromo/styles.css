@@ -1,0 +1,10 @@
+.sub-promo {
+    width: 25%;
+    height: auto;
+    background-color: purple;
+}
+
+.sub-promo-img {
+    object-fit: contain;
+    width: 90%;
+}

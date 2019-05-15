@@ -1,0 +1,40 @@
+.carousel-nav {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 100%;
+}
+
+.nav-control-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background: rgba(0,0,0,0);
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+.play-control {
+    object-fit: contain;
+    width: 100%;
+}
+
+.carousel-nav-active {
+    width: 15px;
+    height: 15px;
+    border: 3px solid black;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.carousel-nav-inactive {
+    width: 15px;
+    height: 15px;
+    border: 3px solid black;
+    border-radius: 50%;
+}

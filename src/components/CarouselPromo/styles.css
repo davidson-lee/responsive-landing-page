@@ -1,0 +1,46 @@
+.carousel-promo {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-promo-mobile {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-promo-text-container {
+    width: 50%;
+    height: 50%;
+}
+
+.carousel-promo-text-container-mobile {
+    width: 100%;
+    height: 50%;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    height: 100%;
+}
+
+.img-container-mobile {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-promo-img {
+    object-fit: contain;
+    width: 100%;
+    min-width: 300px;
+}
