@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import Icons from '../../assets'
 import './styles.css'
 

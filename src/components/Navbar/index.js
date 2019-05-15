@@ -1,10 +1,7 @@
-import React, { useContext } from 'react'
-import { LayoutContext } from '../../LayoutContext'
+import React from 'react'
 import './styles.css'
 
 const Navbar = (props) => {
-    const isMobile = useContext(LayoutContext)
-
     return (
         <div className='navbar-wrapper'>
             <div className='navbar'>
