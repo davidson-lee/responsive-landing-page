@@ -1,4 +1,4 @@
-.navbar {
+.navbar-wrapper {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
@@ -9,10 +9,23 @@
     z-index: 100;
 }
 
-.navbar-menu {
+.navbar {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: center;
-    width: 100%;
+    justify-content: flex-start;
+    width: 80%;
+    align-items: center;
+}
+
+.navbar-logo-container {
+    position: relative;
+    width: 150px;
     height: 100%;
+}
+
+.navbar-logo {
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    object-fit: contain;
 }

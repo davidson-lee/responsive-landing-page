@@ -4,9 +4,7 @@ import './styles.css'
 const Promo = ({ data }) => {
     return (
         <div className={`carousel-promo`} >
-            <div className='img-container'>
-                <img className='carousel-promo-img' src={data.image} alt='Kitten-placeholder' />
-            </div>
+            <img className='carousel-promo-img' src={data.image} alt='Kitten-placeholder' />
             <div className={`carousel-promo-text-container`}>
                 <h1>
                     {data.title}

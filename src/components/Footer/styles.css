@@ -4,19 +4,24 @@
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
+    z-index: 2;
+    margin-bottom: 15px;
 }
 
 .footer-terms {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 0.9rem;
+    font-weight: 900;
     height: 30px;
     background-color: rgb(230,230,230);
     color: black;
 }
 
 .footer-links {
-    height: 50px;
+    margin-top: 2px;
+    height: 55px;
     width: 100%;
     display: flex;
     align-items: center;

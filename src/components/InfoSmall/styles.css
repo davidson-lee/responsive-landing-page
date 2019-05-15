@@ -1,20 +1,20 @@
-.sub-promo {
+.info-small {
     position: relative;
     display: flex;
     flex-flow: column nowrap;
     flex-basis: 50%;
     height: calc(((100vh - 80px) / 2));
-    background-color: purple;
 }
 
-.sub-promo-img {
+.info-small-img {
+    opacity: 0.4;
     max-width: 100%;
     height: auto;
     min-height: 100%;
     object-fit: cover;
 }
 
-.sub-promo-text-container {
+.info-small-text-container {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;

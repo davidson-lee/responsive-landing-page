@@ -6,30 +6,10 @@ const Navbar = (props) => {
     const isMobile = useContext(LayoutContext)
 
     return (
-        <div className={`navbar${isMobile ? ' mobile' : ''}`}>
-            <div className='navbar-title'>
-                Hello
-            </div>
-            <div className='navbar-menu'>
-                <div className='menu-item'>
-                    Item
-                </div>
-                <div className='menu-item'>
-                    Item
-                </div>
-                <div className='menu-item'>
-                    Item
-                </div>
-                <div className='menu-item'>
-                    Item
-                </div>
-            </div>
-            <div className='navbar-icons'>
-                <div className='navbar-myaccount'>
-                    My Account
-                </div>
-                <div className='navbar-find'>
-                    My Account
+        <div className='navbar-wrapper'>
+            <div className='navbar'>
+                <div className='navbar-logo-container'>
+                    <img className='navbar-logo' alt='logo' src='https://placeholder.com/wp-content/uploads/2018/10/placeholder.com-logo1.png' />
                 </div>
             </div>
         </div>

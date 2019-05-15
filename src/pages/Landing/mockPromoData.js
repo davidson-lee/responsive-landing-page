@@ -17,22 +17,22 @@ const mockPromoData = [
     {
         title: 'Sub Promo 1',
         description: 'Sub Promo Description',
-        image: 'http://placekitten.com/503/503'
+        image: 'https://picsum.photos/id/857/1920/1080'
     },
     {
         title: 'Sub Promo 2',
         description: 'Sub Promo Description',
-        image: 'http://placekitten.com/504/504'
+        image: 'https://picsum.photos/id/681/1920/1080'
     },
     {
         title: 'Sub Promo 3',
         description: 'Sub Promo Description',
-        image: 'http://placekitten.com/505/505'
+        image: 'https://picsum.photos/id/724/1920/1080'
     },
     {
         title: 'Sub Promo 4',
         description: 'Sub Promo Description',
-        image: 'http://placekitten.com/506/506'
+        image: 'https://picsum.photos/id/795/1920/1080'
     }
 ]
 
