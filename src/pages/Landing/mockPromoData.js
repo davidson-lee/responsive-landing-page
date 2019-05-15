@@ -1,16 +1,16 @@
 const mockPromoData = [
     {
-        title: 'Main Promo 1',
+        title: 'Main Promo',
         description: 'Main Promo 1 Description',
         image: 'http://placekitten.com/500/500'
     },
     {
-        title: 'Main Promo 2',
+        title: 'Main Promo',
         description: 'Main Promo 2 Description',
         image: 'http://placekitten.com/510/510'
     },
     {
-        title: 'Main Promo 3',
+        title: 'Main Promo',
         description: 'Main Promo 3 Description',
         image: 'http://placekitten.com/501/501'
     },

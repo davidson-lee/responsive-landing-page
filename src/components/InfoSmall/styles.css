@@ -29,7 +29,7 @@
 }
 
 @media (max-width: 815px) {
-    .sub-promo {
+    .info-small {
         flex-basis: 100%;
     }
 }

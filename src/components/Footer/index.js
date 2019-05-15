@@ -8,13 +8,7 @@ const Footer = (props) => {
                 Terms and Conditions
             </div>
                 <div className='footer-links'>
-                        Link
-                        Link
-                        Link
-                        Icon
-                        Icon
-                        Icon
-                        Name
+
                 </div>
             }
         </div>
