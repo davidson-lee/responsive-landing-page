@@ -22,3 +22,9 @@
     max-width: 390px;
     min-width: 225px;
 }
+
+@media only screen and (max-width: 540px) {
+    .carousel-promo-text-container {
+        text-align: center;
+    }
+}
