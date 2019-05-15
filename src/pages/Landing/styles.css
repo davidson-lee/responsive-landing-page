@@ -1,5 +1,6 @@
 .landing {
     display: flex;
+    justify-content: center;
     width: calc(100vw - 17px);
     flex-flow: column nowrap;
     align-items: center;

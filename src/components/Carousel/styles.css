@@ -1,28 +1,29 @@
 .carousel-container {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: center;
+    justify-content: space-evenly;
+    justify-self: center;
+    position: relative;
     align-content: center;
     min-height: 400px;
     height: calc(((100vh - 80px) / 2));
-    width: 100%;
+    min-width: 75%;
 }
 
 .carousel-nav-container {
+    position: absolute;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
+    top: 0;
+    left: 0;
     height: 100%;
     width: 60px;
 }
 
 .carousel-promo-container {
     background: rgba(0,0,0,0);
-    border: 0;
-    outline: none;
     text-align: left;
-    cursor: pointer;
     height: 100%;
-    max-width: calc(100% - 60px);
-    min-width: calc(70% - 60px);
+    width: calc(100% - 60px);
 }

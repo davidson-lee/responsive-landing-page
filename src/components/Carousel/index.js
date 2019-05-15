@@ -47,9 +47,9 @@ const Carousel = ({ data }) => {
                     dispatch={dispatch}
                 />
             </div>
-            <button className='carousel-promo-container'>
+            <div className='carousel-promo-container'>
                 <CarouselPromo data={data[state.position]} />
-            </button>
+            </div>
         </div>
     )
 }
